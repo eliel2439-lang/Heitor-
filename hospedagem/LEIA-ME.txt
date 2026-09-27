@@ -1,0 +1,9 @@
+Arquivos de segurança da hospedagem — Heitor Zanatta Advocacia
+
+Use APENAS o arquivo da hospedagem escolhida, na mesma pasta do index.html:
+- Hostinger (Apache): .htaccess  (força HTTPS + cabeçalhos de segurança + compressão + cache)
+- Vercel: vercel.json
+- Netlify ou Cloudflare Pages: _headers
+- GitHub Pages: não aceita cabeçalhos próprios; use Cloudflare na frente do domínio.
+
+Depois de publicar, confira a nota em https://securityheaders.com
